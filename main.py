@@ -143,6 +143,7 @@ class V2Char(CharFrame):
 
 
 if __name__ == "__main__":
+    # sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))  # 当前项目路径加入
     v2char = V2Char('./vedio.mp4')
     v2char.play()
 
