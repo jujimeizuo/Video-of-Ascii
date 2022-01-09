@@ -1,3 +1,4 @@
+#coding=utf-8
 import cv2
 videoFile = 'vedio.mp4'
 outputFile = 'url'
