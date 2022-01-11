@@ -12,6 +12,7 @@ python版 视频转Ascii流
 python main.py video.mp4
 ```
 
+
 ## 利用```video_to_ascii```包
 ```shell script
 pip install video_to_ascii
