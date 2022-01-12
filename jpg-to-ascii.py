@@ -8,6 +8,7 @@ from PIL import Image       #PIL库是Python事实上的图像处理标准库
 # 图片转ASCII的基本原理是将灰度图片分割成众多小网格，将小网格的平均亮度计算出来用不同亮度字符代替
 # 灰度梯度对应字符可参考：http://paulbourke.net/dataformats/asciiart/
 # 70级灰度梯度（越来越亮）
+
 gscale1 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 # 10级灰度梯度
 gscale2 = '@%#*+=-:. '
