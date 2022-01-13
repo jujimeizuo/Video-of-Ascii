@@ -13,6 +13,7 @@ else:
     print('open-Error!')
     rval = False
 
+    
 timeF = 100  #视频帧计数间隔次数
 while rval:
     print("ok")
