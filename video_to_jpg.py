@@ -3,6 +3,7 @@ import cv2
 videoFile = 'vedio.mp4'
 outputFile = 'url'
 
+
 vc = cv2.VideoCapture(videoFile)
 print(vc)
 c = 1
